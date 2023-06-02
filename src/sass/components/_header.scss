@@ -1,0 +1,37 @@
+.header {
+    position: sticky;
+    justify-content: space-between;
+    padding: 8px;
+
+}
+
+.header__link {
+    background-color: rgb(255, 223, 184);
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    color: rgb(132, 132, 132);
+}
+
+
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-menu__greetings {
+    display: none;
+    color: map-get($colors, "secondary_text");
+
+    @media screen and (min-width: $tablet) {
+        display: block;
+    }
+}
+
+.user-menu__log-out-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    // color: map-get($colors, "primary_text");
+}

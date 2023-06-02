@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./base/normalize";
+@import "./abstracts/variables";
+@import "./base/typography";
+@import "./layout/main-container";
+@import "./components/searchBar";
+@import "./components/board";
+@import "./components/form";
+@import "./components/welcome-page";
+@import "./components/header"

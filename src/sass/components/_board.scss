@@ -1,0 +1,33 @@
+.board__column {
+    background-color: map-get($colors, background);
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: $box-shadow;
+
+    >ul {
+        margin-top: 30px;
+    }
+}
+
+.board__title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.board__issue-wrapper {
+    border-radius: 8px;
+    box-shadow: $box-shadow;
+    padding: 15px;
+    cursor: grab;
+    color: map-get($colors, primary_text);
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.board__issue-title {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
